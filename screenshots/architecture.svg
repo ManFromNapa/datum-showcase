@@ -1,46 +1,46 @@
 <svg viewBox="0 0 900 580" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, Helvetica, Arial, sans-serif">
-  <rect x="0" y="0" width="900" height="580" fill="#F5F1E8"/>
+  <rect x="0" y="0" width="900" height="580" fill="#F4F2F8"/>
 
   <!-- SwiftUI Views layer -->
-  <rect x="60" y="40" width="780" height="90" rx="14" fill="#FFFFFF" stroke="#D8D2C2" stroke-width="1.5"/>
-  <text x="90" y="72" font-size="20" font-weight="600" fill="#2B2B28">SwiftUI Views</text>
-  <text x="90" y="98" font-size="14" fill="#6B6659">Train · History · Reports · Exercises · Settings</text>
+  <rect x="60" y="40" width="780" height="90" rx="14" fill="#FFFFFF" stroke="#E7E2F1" stroke-width="1.5"/>
+  <text x="90" y="72" font-size="20" font-weight="600" fill="#1A1626">SwiftUI Views</text>
+  <text x="90" y="98" font-size="14" fill="#605A70">Train · History · Reports · Exercises · Settings</text>
 
   <!-- arrow down -->
-  <line x1="450" y1="130" x2="450" y2="165" stroke="#2F5233" stroke-width="2"/>
-  <polygon points="450,172 444,160 456,160" fill="#2F5233"/>
+  <line x1="450" y1="130" x2="450" y2="165" stroke="#7C3AED" stroke-width="2"/>
+  <polygon points="450,172 444,160 456,160" fill="#7C3AED"/>
 
   <!-- Services layer -->
-  <rect x="60" y="180" width="780" height="110" rx="14" fill="#FFFFFF" stroke="#D8D2C2" stroke-width="1.5"/>
-  <text x="90" y="212" font-size="20" font-weight="600" fill="#2B2B28">Services</text>
-  <text x="90" y="238" font-size="14" fill="#6B6659">Pure, unit-tested calculation logic</text>
-  <text x="90" y="260" font-size="14" fill="#6B6659">ReportingCalculator · PlateCalculator · DataExporter</text>
+  <rect x="60" y="180" width="780" height="110" rx="14" fill="#FFFFFF" stroke="#E7E2F1" stroke-width="1.5"/>
+  <text x="90" y="212" font-size="20" font-weight="600" fill="#1A1626">Services</text>
+  <text x="90" y="238" font-size="14" fill="#605A70">Pure, unit-tested calculation logic</text>
+  <text x="90" y="260" font-size="14" fill="#605A70">ReportingCalculator · PlateCalculator · DataExporter</text>
 
   <!-- arrow down -->
-  <line x1="450" y1="290" x2="450" y2="325" stroke="#2F5233" stroke-width="2"/>
-  <polygon points="450,332 444,320 456,320" fill="#2F5233"/>
+  <line x1="450" y1="290" x2="450" y2="325" stroke="#7C3AED" stroke-width="2"/>
+  <polygon points="450,332 444,320 456,320" fill="#7C3AED"/>
 
   <!-- SwiftData layer -->
-  <rect x="60" y="340" width="500" height="110" rx="14" fill="#FFFFFF" stroke="#D8D2C2" stroke-width="1.5"/>
-  <text x="90" y="372" font-size="20" font-weight="600" fill="#2B2B28">SwiftData (on-device)</text>
-  <text x="90" y="398" font-size="14" fill="#6B6659">Plan → WorkoutTemplate → TemplateExercise</text>
-  <text x="90" y="420" font-size="14" fill="#6B6659">WorkoutSession → SessionExercise → SetEntry</text>
+  <rect x="60" y="340" width="500" height="110" rx="14" fill="#FFFFFF" stroke="#E7E2F1" stroke-width="1.5"/>
+  <text x="90" y="372" font-size="20" font-weight="600" fill="#1A1626">SwiftData (on-device)</text>
+  <text x="90" y="398" font-size="14" fill="#605A70">Plan → WorkoutTemplate → TemplateExercise</text>
+  <text x="90" y="420" font-size="14" fill="#605A70">WorkoutSession → SessionExercise → SetEntry</text>
 
   <!-- arrow right to HealthKit -->
-  <line x1="565" y1="395" x2="615" y2="395" stroke="#2F5233" stroke-width="2"/>
-  <polygon points="622,395 610,389 610,401" fill="#2F5233"/>
+  <line x1="565" y1="395" x2="615" y2="395" stroke="#7C3AED" stroke-width="2"/>
+  <polygon points="622,395 610,389 610,401" fill="#7C3AED"/>
 
   <!-- HealthKit layer -->
-  <rect x="625" y="340" width="215" height="110" rx="14" fill="#EFEAD9" stroke="#2F5233" stroke-width="1.5" stroke-dasharray="5,4"/>
-  <text x="648" y="372" font-size="17" font-weight="600" fill="#2F5233">HealthKit</text>
-  <text x="648" y="394" font-size="12.5" fill="#3E5C41">optional, two-way</text>
-  <text x="648" y="411" font-size="12.5" fill="#3E5C41">workouts, heart rate,</text>
-  <text x="648" y="428" font-size="12.5" fill="#3E5C41">body metrics, nutrition</text>
+  <rect x="625" y="340" width="215" height="110" rx="14" fill="#F0E9FC" stroke="#7C3AED" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <text x="648" y="372" font-size="17" font-weight="600" fill="#5B21B6">HealthKit</text>
+  <text x="648" y="394" font-size="12.5" fill="#6B3FA0">optional, two-way</text>
+  <text x="648" y="411" font-size="12.5" fill="#6B3FA0">workouts, heart rate,</text>
+  <text x="648" y="428" font-size="12.5" fill="#6B3FA0">body metrics, nutrition</text>
 
   <!-- arrow down to device -->
-  <line x1="310" y1="450" x2="310" y2="480" stroke="#2F5233" stroke-width="2"/>
-  <polygon points="310,487 304,475 316,475" fill="#2F5233"/>
+  <line x1="310" y1="450" x2="310" y2="480" stroke="#7C3AED" stroke-width="2"/>
+  <polygon points="310,487 304,475 316,475" fill="#7C3AED"/>
 
-  <text x="90" y="520" font-size="14" fill="#8A8471">No custom backend. No required account.</text>
-  <text x="90" y="542" font-size="14" fill="#8A8471">All workout data lives on the device unless the user turns on iCloud sync.</text>
+  <text x="90" y="520" font-size="14" fill="#8A8199">No custom backend. No required account.</text>
+  <text x="90" y="542" font-size="14" fill="#8A8199">All workout data lives on the device unless the user turns on iCloud sync.</text>
 </svg>

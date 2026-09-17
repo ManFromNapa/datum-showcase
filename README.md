@@ -26,6 +26,7 @@ Most workout-tracking apps fall into one of two camps: bloated social platforms 
 - **Plate calculator** — per-side plate breakdown for a target weight, right on the logging screen
 - **Configurable rest timer**, workout notes, and a JSON data export you can save or share
 - **On-device by default** — no required account, no custom backend; iCloud sync is an opt-in setting, not a dependency
+- **Light and dark mode** — a violet visual identity taken from the app icon, tuned separately for both appearances, applied consistently across every screen
 
 ## Screenshots
 
@@ -33,12 +34,20 @@ Most workout-tracking apps fall into one of two camps: bloated social platforms 
 
 | | |
 |---|---|
-| ![Plans](screenshots/plans.png) | ![Exercise library](screenshots/exercises.png) |
+| ![Plans](screenshots/light/plans.png) | ![Exercise library](screenshots/light/exercises.png) |
 | Plans & templates | Exercise library (873 seeded exercises) |
-| ![Logging a set](screenshots/workout_logging.png) | ![History](screenshots/history.png) |
+| ![Logging a set](screenshots/light/workout_logging.png) | ![History](screenshots/light/history.png) |
 | Active workout logging | Workout history |
-| ![Settings](screenshots/settings.png) | |
+| ![Settings](screenshots/light/settings.png) | |
 | Settings — Health sync, units, body metrics, export | |
+
+### Dark mode
+
+| | |
+|---|---|
+| ![Plans, dark mode](screenshots/dark/plans.png) | ![Workout logging, dark mode](screenshots/dark/workout_logging.png) |
+
+The full set of dark-mode screens (Plans, Exercises, Workout logging, History, Settings) is in [`screenshots/dark/`](screenshots/dark/); the light-mode equivalents are in [`screenshots/light/`](screenshots/light/).
 
 ## Tech stack
 
@@ -62,7 +71,7 @@ I'm a technology leader focused on AI enablement, and Datum is a personal projec
 
 ## Current status
 
-**In active development.** The core loop — build a plan, log a workout set-by-set, see it in history — works end to end and is covered by an automated UI test, not just "it compiles." HealthKit sync, the reporting engine, warm-ups/drop-sets/supersets, body metrics, and data export are all built and working. Still open: a free/paid tier split, progress photos, CloudKit sync (attempted, paused), an Apple Watch companion, and a few smaller v1 backlog items. Nothing here is vaporware — everything described above and shown in the screenshots is running in the simulator today.
+**In active development.** The core loop — build a plan, log a workout set-by-set, see it in history — works end to end and is covered by an automated UI test, not just "it compiles." HealthKit sync, the reporting engine, warm-ups/drop-sets/supersets, body metrics, and data export are all built and working. The visual identity was recently redone — a violet direction taken from the app icon, restyled across every screen in both light and dark mode. Still open: a free/paid tier split, progress photos, CloudKit sync (attempted, paused), an Apple Watch companion, and a few smaller v1 backlog items. Nothing here is vaporware — everything described above and shown in the screenshots is running in the simulator today.
 
 ---
 
