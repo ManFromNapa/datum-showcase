@@ -4,6 +4,8 @@
 
 **A native iOS workout tracker for people who want to log lifts and see real progress — no account, no social feed, no subscription nag on day one.**
 
+🔗 **[datumfitness.app](https://datumfitness.app)** — the product site: features, docs, and the current TestFlight beta.
+
 > This is a showcase repository. It documents the product and shows what it looks like — the private source repository is not included here. See [Current status](#current-status) and the note at the bottom for access.
 
 ## Overview
@@ -71,7 +73,7 @@ I'm a technology leader focused on AI enablement, and Datum is a personal projec
 
 ## Current status
 
-**In active development.** The core loop — build a plan, log a workout set-by-set, see it in history — works end to end and is covered by an automated UI test, not just "it compiles." HealthKit sync, the reporting engine, warm-ups/drop-sets/supersets, body metrics, and data export are all built and working. The visual identity was recently redone — a violet direction taken from the app icon, restyled across every screen in both light and dark mode. Still open: a free/paid tier split, progress photos, CloudKit sync (attempted, paused), an Apple Watch companion, and a few smaller v1 backlog items. Nothing here is vaporware — everything described above and shown in the screenshots is running in the simulator today.
+**In active development, and currently in [TestFlight beta](https://datumfitness.app).** The core loop — build a plan, log a workout set-by-set, see it in history — works end to end and is covered by an automated UI test, not just "it compiles." HealthKit sync, the reporting engine, warm-ups/drop-sets/supersets, body metrics, and data export are all built and working. The visual identity was recently redone — a violet direction taken from the app icon, restyled across every screen in both light and dark mode. Still open: a free/paid tier split, progress photos, CloudKit sync (attempted, paused), an Apple Watch companion, and a few smaller v1 backlog items. Nothing here is vaporware — everything described above and shown in the screenshots is running in the simulator today.
 
 ---
 
